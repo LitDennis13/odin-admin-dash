@@ -1,0 +1,70 @@
+@font-face {
+    font-family: customRobotoReg;
+    src: url(fonts/Roboto/Roboto-Medium.ttf);
+}
+:root {
+    height: 100vh;
+    width: 100vw;
+    font-family: customRobotoReg;
+    font-weight: bold;
+}
+h1, h2, h3, h4, h5, h6 {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 4fr;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    grid-area: 1 / 1 / 3 / 2;
+    color: white;
+    background-color: rgb(26, 144, 211);
+    padding-top: 1rem;
+    
+}
+.side-bar-button, #title {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    font-size: 1.15rem;
+    padding: .8rem 1.75rem;
+}
+
+.side-bar-button:hover {
+    background-color: rgb(255,255,255,.1);
+}
+
+.side-bar-img, #dashboardimage {
+    filter: invert(96%) sepia(96%) saturate(0%) hue-rotate(94deg) brightness(105%) contrast(105%);
+    width: 2rem;
+    margin-right: 1.5rem;
+    
+}
+#dashboardimage {
+    width: 4rem;
+}
+
+#title {
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.side-bar-button:has(> img[alt="Communities Image"]) {
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
