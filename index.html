@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="./Styles/main-styles.css">
     <link rel="stylesheet" href="./Styles/sidebar-styles.css">
     <link rel="stylesheet" href="./Styles/top-portion-styles.css">
+    <link rel="stylesheet" href="./Styles/main-content-styles.css">
+    <link rel="stylesheet" href="./Styles/project-styles.css">
+    <link rel="stylesheet" href="./Styles/announcements-styles.css">
+    <link rel="stylesheet" href="./Styles/trending-styles.css">
+    <link rel="stylesheet" href="./Styles/font-defs.css">
 </head>
 <body>
 
@@ -62,31 +67,108 @@
         </div>
     </div>
 
-    <div id="main-content">
-        <div id="top-portion">
-            <div id="top-portion-first-row">
-                <form action="#" method="post" id="search-bar-container">
-                    <label for="search-bar"><img src="./SVG's/search_FILL0_wght400_GRAD0_opsz24.svg" alt="Search Icon"></label>
-                    <input type="search" id="search-bar" name="user_search">
-                </form>
-                <img src="./SVG's/notifications_active_FILL0_wght400_GRAD0_opsz24.svg" alt="Notification Icon">
+    
+    <div id="top-portion">
+        <div id="top-portion-first-row">
+            <form action="#" method="post" id="search-bar-container">
+                <label for="search-bar"><img src="./SVG's/search_FILL0_wght400_GRAD0_opsz24.svg" alt="Search Icon"></label>
+                <input type="search" id="search-bar" name="user_search">
+            </form>
+            <img src="./SVG's/notifications_active_FILL0_wght400_GRAD0_opsz24.svg" alt="Notification Icon">
+            <img src="./Profile Pictures/Screenshot 2023-12-26.png" alt="Main Profile Picture">
+            <h3>Morgan Oakley</h3>
+        </div>
+        <div id="top-portion-second-row">
+            <div id="user-profile-display">
                 <img src="./Profile Pictures/Screenshot 2023-12-26.png" alt="Main Profile Picture">
-                <h3>Morgan Oakley</h3>
-            </div>
-            <div id="top-portion-second-row">
-                <div id="user-profile-display">
-                    <img src="./Profile Pictures/Screenshot 2023-12-26.png" alt="Main Profile Picture">
-                    <div id="user-profile-text">
-                        <h4>Hi there,</h4>
-                        <h1>Morgan Oakley (@morgan)</h1>
-                    </div>
-                    
+                <div id="user-profile-text">
+                    <h4>Hi there,</h4>
+                    <h1>Morgan Oakley (@morgan)</h1>
                 </div>
-                <button id="new-button">New</button>
-                <button id="upload-button">Upload</button>
-                <button id="share-button">Share</button>
+                
             </div>
+            <button id="new-button">New</button>
+            <button id="upload-button">Upload</button>
+            <button id="share-button">Share</button>
         </div>
     </div>
+
+    <div id="main-content">
+        <div id="projects">
+            <h2 id="projects-title">Your Projects</h2>
+            
+            <div id="project-container">
+                <div id="project">
+                    <h2 id="project-box-title">Super Cool Project</h2>
+                    <p>Sed tempus ut lacus ut scelerisque.
+                        Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <div id="button-container">
+                        <img src="./SVG's/star_FILL0_wght400_GRAD0_opsz24.svg" alt="Favorite Icon">
+                        <img src="./SVG's/visibility_FILL0_wght400_GRAD0_opsz24.svg" alt="Visibility Icon">
+                        <img src="./SVG's/share_FILL0_wght400_GRAD0_opsz24.svg" alt="Share Icon">
+                    </div>
+                </div>
+                
+                <div id="project">
+                    <h2 id="project-box-title">Less Cool Project</h2>
+                    <p>Nels Coon Profect insum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+                    <div id="button-container">
+                        <img src="./SVG's/star_FILL0_wght400_GRAD0_opsz24.svg" alt="Favorite Icon">
+                        <img src="./SVG's/visibility_FILL0_wght400_GRAD0_opsz24.svg" alt="Visibility Icon">
+                        <img src="./SVG's/share_FILL0_wght400_GRAD0_opsz24.svg" alt="Share Icon">
+                    </div>
+                </div>
+
+                <div id="project">
+                    <h2 id="project-box-title">Impossible App</h2>
+                    <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis it.</p>
+                    <div id="button-container">
+                        <img src="./SVG's/star_FILL0_wght400_GRAD0_opsz24.svg" alt="Favorite Icon">
+                        <img src="./SVG's/visibility_FILL0_wght400_GRAD0_opsz24.svg" alt="Visibility Icon">
+                        <img src="./SVG's/share_FILL0_wght400_GRAD0_opsz24.svg" alt="Share Icon">
+                    </div>
+                </div>
+
+                <div id="project">
+                    <h2 id="project-box-title">Easy Peasy App</h2>
+                    <p>Etiam cursus eros ac efficitur fringilla.
+                        Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                    <div id="button-container">
+                        <img src="./SVG's/star_FILL0_wght400_GRAD0_opsz24.svg" alt="Favorite Icon">
+                        <img src="./SVG's/visibility_FILL0_wght400_GRAD0_opsz24.svg" alt="Visibility Icon">
+                        <img src="./SVG's/share_FILL0_wght400_GRAD0_opsz24.svg" alt="Share Icon">
+                    </div>
+                </div>
+                
+                <div id="project">
+                    <h2 id="project-box-title">Ad Blocker</h2>
+                    <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+                    <div id="button-container">
+                        <img src="./SVG's/star_FILL0_wght400_GRAD0_opsz24.svg" alt="Favorite Icon">
+                        <img src="./SVG's/visibility_FILL0_wght400_GRAD0_opsz24.svg" alt="Visibility Icon">
+                        <img src="./SVG's/share_FILL0_wght400_GRAD0_opsz24.svg" alt="Share Icon">
+                    </div>
+                </div>
+
+                <div id="project">
+                    <h2 id="project-box-title">Money Maker</h2>
+                    <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex.
+                        Pellentesque mollis nec sem vel aliquam.</p>
+                    <div id="button-container">
+                        <img src="./SVG's/star_FILL0_wght400_GRAD0_opsz24.svg" alt="Favorite Icon">
+                        <img src="./SVG's/visibility_FILL0_wght400_GRAD0_opsz24.svg" alt="Visibility Icon">
+                        <img src="./SVG's/share_FILL0_wght400_GRAD0_opsz24.svg" alt="Share Icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="announcements">
+            d
+        </div>
+
+        <div id="trending">
+        </div>
+    </div>
+
 </body>
 </html>

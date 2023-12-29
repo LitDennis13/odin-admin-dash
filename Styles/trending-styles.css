@@ -1,0 +1,6 @@
+#trending {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: gold;
+    height: 100%;
+    width: 100%;
+}

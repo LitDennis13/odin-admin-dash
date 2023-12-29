@@ -1,7 +1,3 @@
-@font-face {
-    font-family: customRobotoReg;
-    src: url(../fonts/Roboto/Roboto-Medium.ttf);
-}
 :root {
     height: 100vh;
     width: 100vw;
@@ -21,6 +17,7 @@ body {
     margin: 0px;
     background-color: rgb(226,232,240);
 }
+
 
 
 

@@ -1,0 +1,6 @@
+#announcements {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
