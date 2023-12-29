@@ -9,3 +9,10 @@ Top portion - top half commit
 3. Created “top-portion-styles.css” that contains all styles for top portion of page.
 4. added search svg
 
+
+Top portion - bottom half commit
+
+1. Added indicators to “top-portion-styles.css” to differentiate between styles for the top and bottom of top portion
+2. Fixed padding and margins in “top-portion-styles.css” so everything lines up correctly
+3. Changed spacing between buttons for the side bar in "sidebar-styles.css"
+
