@@ -36,6 +36,10 @@
     margin: 0rem;
     padding: 0rem;
 }
+#project-box-title {
+    margin-bottom: .3rem;
+}
+
 #project-box-title + p {
     font-family: customRobotoThin;
     font-size: 1.2rem;

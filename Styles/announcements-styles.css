@@ -1,6 +1,43 @@
 #announcements {
     grid-area: 1 / 2 / 2 / 3;
-    background-color: blue;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 7fr;
+}
+
+
+#announcements-title {
+    font-size: 1.8rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+#announcements-container {
+    display: flex;
+    flex-flow: nowrap column;
+    background-color: white;
+    border-radius: .5rem; 
+    align-items: center;
+    padding: 2.5rem;
+    row-gap: 1.2rem;
+
+}
+
+#announcement > h3 {
+    margin: 0rem;
+    padding: 0rem;
+    margin-bottom: .2rem;
+}
+
+#announcement > p {
+    font-family: customRobotoThin;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+#grey-line {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(210,210,210);
 }

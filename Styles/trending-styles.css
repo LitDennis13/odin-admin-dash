@@ -1,6 +1,10 @@
 #trending {
     grid-area: 2 / 2 / 3 / 3;
-    background-color: gold;
     height: 100%;
     width: 100%;
+}
+#trending-title {
+    font-size: 1.8rem;
+    margin: 0rem;
+    padding: 0rem;
 }

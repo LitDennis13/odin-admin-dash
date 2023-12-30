@@ -27,3 +27,10 @@
 6. Added "visibility_FILL0_wght400_GRAD0_opsz24.svg" to SVG folder. This is the eye icon.
 7. Added "share_FILL0_wght400_GRAD0_opsz24.svg" to SVG folder. This is the share icon.
 8. Created "font-defs.css" in styles folder.
+
+"Main content - Announcements" commit
+
+1. Edited line 39-42 in "project-styles.css" to add a bigger gap between the project title and project description.
+2. Edited "index.html" to include trending title
+3. Edited "trending-styles.css" to include styling for trending title.
+4. Edited line 10 in "main-content-styles.css" to include a row gap to make a gap between the announcements and trending.
