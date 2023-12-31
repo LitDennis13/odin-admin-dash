@@ -31,6 +31,10 @@
 "Main content - Announcements" commit
 
 1. Edited line 39-42 in "project-styles.css" to add a bigger gap between the project title and project description.
-2. Edited "index.html" to include trending title
+2. Edited "index.html" to include trending title.
 3. Edited "trending-styles.css" to include styling for trending title.
 4. Edited line 10 in "main-content-styles.css" to include a row gap to make a gap between the announcements and trending.
+
+"Main content - Trending" commit
+
+1. Added "images.png", "images2.jpeg", and "images3.jpeg" to Profile Pictures.

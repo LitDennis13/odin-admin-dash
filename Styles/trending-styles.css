@@ -2,9 +2,52 @@
     grid-area: 2 / 2 / 3 / 3;
     height: 100%;
     width: 100%;
+    display: grid;
+    grid-template: 1fr 7fr / 1fr;
 }
 #trending-title {
     font-size: 1.8rem;
     margin: 0rem;
     padding: 0rem;
+}
+
+#profile-container {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: white;
+    border-radius: .5rem;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+#profile {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 10fr;
+    align-content: center;
+    row-gap: .2rem;
+    column-gap: 1.15rem;
+    
+    
+} 
+#profile > * {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+#profile  img {
+    grid-area: 1 / 1 / 3 / 2;
+    width: 4rem;
+    border-radius: 100rem;
+}
+
+
+#profile > #profile-name {
+    grid-area: 1 / 2 / 2 / 3;
+    font-size: 1.2rem;
+}
+
+#profile > #profile-description {
+    grid-area: 2 / 2 / 3 / 3;
+    font-family: customRobotoThin;
+    font-size: 1.05rem;
 }
